@@ -1,1 +1,4 @@
-console.log('This would be the main JS file.');
+(function (document) {
+	if (window.location.protocol != "https:")
+	    window.location.protocol = "https";
+})(document)

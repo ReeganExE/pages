@@ -1,0 +1,51 @@
+.promo {
+  width: 250px;
+  height: 310px;
+  margin-top : 10px;
+  background: #0F1012; 
+  margin-left: 16px;
+  color: #f9f9f9;
+  float: left;
+}
+.promo .deal {
+  padding: 10px 0 0 0;
+}
+.promo .deal span {
+  display: block;
+  text-align: center;
+}
+.promo .deal span:first-of-type {
+  font-size: 23px;  
+}
+.promo .deal span:last-of-type {
+  font-size: 13px;
+}
+.promo .price {
+  display: block;
+  width: 250px;  
+  background: #292b2e;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 17px 0 17px 0;
+}
+.promo ul {
+  display: block;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+.promo li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+.promo button {
+  border: none;
+  border-radius: 40px;
+  background: #292b2e;
+  color: #f9f9f9;
+  padding: 10px 37px;
+  margin: 10px 0 20px 60px;
+}

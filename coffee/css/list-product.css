@@ -2,7 +2,7 @@
   width: 250px;
   height: 310px;
   margin-top : 10px;
-  background: #0F1012; 
+  background: #82592D;
   margin-left: 16px;
   color: #f9f9f9;
   float: left;
@@ -41,11 +41,35 @@
   display: block;
   margin: 10px 0 0 0;
 }
-.promo button {
+/* .promo button {
   border: none;
   border-radius: 40px;
   background: #292b2e;
   color: #f9f9f9;
   padding: 10px 37px;
   margin: 10px 0 20px 60px;
+} */
+
+
+.promo .detail-product{
+	font-family: 'Open Sans', sans-serif;
+	color:#DBB25F;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding:10px 25px;
+	border:none;
+	display: inline-block;
+	background:#82592D;
+	margin-top:10px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	 border: none;
+	  border-radius: 40px;
+	  background: #292b2e;
+	  color: #f9f9f9;
+	  padding: 10px 37px;
+	  margin: 10px 0 20px 60px;
 }

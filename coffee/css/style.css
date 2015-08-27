@@ -26,8 +26,9 @@ img{max-width:100%;}
       src: url(../fonts/CaviarDreams-webfont.ttf) format('truetype');
 }
 body{
-	background: url(../images/bg.jpg);
+	/* background: url(../images/bg.jpg); */
 	font-family:Arial, Helvetica, sans-serif;
+	background: #082330;
 }
 /*----start-wrap-----*/
 .wrap{
@@ -173,6 +174,8 @@ nav a#pull:after {
 	font-family: 'Open Sans', sans-serif;
 	color:#DBB25F;
 }
+
+
 .grid_img img{
 	max-width:100%;
 	display:block;
@@ -197,6 +200,7 @@ nav a#pull:after {
 }
 .price_text{
   float:left;	
+  margin-top: 9px;
 }
 .price_desc .price{
 	font-family: 'Open Sans', sans-serif;
@@ -205,7 +209,7 @@ nav a#pull:after {
 	float: left;
 	background: #FFF;
 	line-height:80px;
-	width:80px;
+	width:196px;
 	text-align: center;
 	margin: 0 18px 0 0;
 	-webkit-border-radius:2em;
@@ -932,8 +936,6 @@ nav a#pull:after {
 	}
 	.mid-grid{
 		padding:1em 0;
-		/*height: 300px;*/
-		/*overflow: scroll;*/
 	}
 	.mid-grid h2{
 		font-size:1.5em;
@@ -1050,3 +1052,122 @@ nav a#pull:after {
 		width:94%;
 	}
 }
+
+/* nhanvt add */
+
+.bg-bubbles {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 494px;
+  z-index: -1;
+}
+.bg-bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image : url("../images/background-cafe4040.png");
+  bottom: -160px;
+  -webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.bg-bubbles li:nth-child(1) {
+  left: 10%;
+}
+.bg-bubbles li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  background-image : url("../images/background-cafe8080.png");
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+}
+.bg-bubbles li:nth-child(3) {
+  left: 25%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.bg-bubbles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
+  background-image : url("../images/background-cafe6060.png");
+}
+.bg-bubbles li:nth-child(5) {
+  left: 70%;
+}
+ .bg-bubbles li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  background-image : url("../images/background-cafe120120.png");
+} 
+.bg-bubbles li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  background-image : url("../images/background-cafe160160.png");
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+ .bg-bubbles li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  background-image : url("../images/background-cafe2020.png");
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+} 
+ .bg-bubbles li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  background-image : url("../images/background-cafe1010.png");
+} 
+.bg-bubbles li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  background-image : url("../images/background-cafe160160.png");
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-700px) rotate(600deg);
+            transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+

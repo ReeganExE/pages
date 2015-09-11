@@ -2,7 +2,9 @@
 .grid_img_loading{
 	max-width:100%;
 	display:block;
-	margin-left:5px;
+	margin-left:30%;
+	margin-top: 50%;
+	float : left;
 	position : relative;
 }
 
@@ -62,7 +64,7 @@
     height: 87px;
     margin: auto;
 
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 517px;
     bottom: 0;

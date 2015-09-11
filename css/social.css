@@ -32,12 +32,13 @@ a { text-decoration: none; }
 
 /* ---------- NAVIGATION ---------- */
 
-nav {
-	margin: 50px auto;
-	width: 218px;
-}
 
+.nav-social{
+	margin: 50px auto !important;
+	width: 218px !important;
+}
 .nav-social ul{
+	
 	display : block !important;
 }
 

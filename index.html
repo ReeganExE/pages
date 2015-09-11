@@ -1,0 +1,232 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Home</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+  <link rel="stylesheet" type="text/css" href="css/list-product.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="css/slider.css" rel="stylesheet" type="text/css"  media="all" />
+  <link rel="stylesheet" type="text/css" href="css/drip.css">
+  <link rel="stylesheet" type="text/css" href="css/social.css">
+  
+  <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	
+	<script>
+	function initialize() {
+	  var mapProp = {
+		center:new google.maps.LatLng(10.797522, 106.640893),
+		zoom:20,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+	  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	
+ </head>
+<body>
+
+	
+
+
+	<!----start-header----->
+        <div class="wrap">
+	        <div class="header">
+	        	<div class="header_top">
+	        		<div class="logo">
+                  	  <a href="index.html"><img src="images/logo.png" alt=""></a>
+                  </div>
+	      	       <div class="menu">
+				      <nav class="clearfix">
+						<ul class="clearfix">
+							      <li class="active" ><a href="index.html">Trang chu</a></li>
+								  <li><a href="about.html">Gioi thieu</a></li>
+								  <li><a href="services.html">Dich vu</a></li>
+								  <li><a href="Price.html">Gia ca</a></li>
+								  <!-- <li><a href="contact.html">Lien he</a></li>	 -->
+						 </ul>
+						<a href="#" id="pull">Menu</a>
+					  </nav>
+                  </div>                 
+                </div>
+             </div>
+          </div>
+   <!----End-header----->
+	       <!------ Slider ------------>
+		     <div class="slider">
+	      	  <div class="slider-wrapper theme-default">
+	            <div id="slider" class="nivoSlider">	                
+	                <img src="images/slider-2.jpg" data-thumb="images/slider-2.jpg" alt="" />
+	                <img src="images/slider-3.jpg" data-thumb="images/slider-3.jpg" alt="" />
+	                <img src="images/slider-4.jpg" data-thumb="images/slider-4.jpg" alt="" />
+	                <img src="images/slider-1.jpg" data-thumb="images/slider-1.jpg" alt="" />
+	            </div>
+	        </div>
+   	    </div>
+		<!------End Slider ------------>
+		 <!---start-content---->
+		 <div class="wrap">
+		   <div class="content">
+		   	 <div class="welcome_desc">
+			         	<div class="section group">
+							<div class="col_1_of_2 span_1_of_2">
+								<div class="grid_img_loading">
+									
+								
+								
+									<div class="loading-icon"></div>
+									
+								</div>
+								
+			 				</div>
+							<div class="col_1_of_2 span_1_of_2">
+								      <div class="grid_img">
+											<img src="images/slider-1.jpg" alt="" />
+								     </div>
+								  <div class="price_desc">
+					                 <a href="detail-product-ede.html"><div class="price">126.000 VNĐ</div>
+					                    <div class="price_text"><h4><span>Ede Coffee</span>*Cà phê của đồng bào </h4></div> 
+					                      <div class="clear"></div>					                    
+					                 </a>			      			  
+							   </div>
+		 			      </div> 
+		 			 </div> 
+	             </div>	
+	           <div class="border-stip"> </div>
+		     	<div class="mid-grid">
+				 		
+						
+						<div class="promo">
+						  <div class="deal">
+							<span>Robusta</span>
+							<span>Nhanh tay lên!</span>
+						  </div>
+						  <span class="price">125.000 VNĐ</span>
+						  <ul class="features">
+							<li>Cà phê sạch Robusta..</li>
+							<li>có vị đắng đậm đà,</li>
+							<li>mùi hương thơm nhẹ...</li>   
+						  </ul>
+						  <!-- <button> -->
+						  <a class="detail-product" href="detail-product-robusta.html">Xem tiếp</a>
+						  <!-- </button> -->
+						</div>
+						<div class="promo scale">
+						  <div class="deal">
+							<span>Arebica</span>
+							<span>Nhanh tay lên!</span>
+						  </div>
+						  <span class="price">130.000 VNĐ</span>
+						  <ul class="features">
+							<li>Cà phê sạch Arabica...</li>
+							<li>có vị ngọt, chua thanh...</li>
+							<li>hương thơm nồng...</li>   
+						  </ul>
+						  <!-- <button> -->
+						  <a class="detail-product" href="detail-product-arabica.html">Xem tiếp</a>
+						  <!-- </button> -->
+						</div>
+						<div class="promo">
+						  <div class="deal">
+							<span>Culi</span>
+							<span>Nhanh tay lên !</span>
+						  </div>
+						  <span class="price">127.000 VNĐ</span>
+						  <ul class="features">
+							<li>Cà phê Sạch Culi...</li>
+							<li>đắng đậm mạnh,</li>
+							<li>mùi hương thơm nồng...</li>   
+						  </ul>
+						  <!-- <button> -->
+						  <a class="detail-product" href="detail-product-culi.html">Xem tiếp</a>
+						  <!-- </button> -->
+						</div>
+						
+					
+			  		</div> 	 
+			  <div class="border-stip"> </div>
+		       <div class="top-grids">
+			 		<div class="section group">
+						 <div class="grid_1_of_3 images_1_of_3 top_grid">
+							  <h3>Dia diem</h3>
+							  <div id="googleMap" style="width:340px;height:340px;"></div>
+							  
+						
+						 </div>
+						 <div class="grid_1_of_3 images_1_of_3 top_grid">							 
+							  <h3>Social</h3>
+							  
+							  <nav class="nav-social">
+
+								<ul class="clearfix-social" style="display : block;">
+
+									<li><a href="#"><span class="fontawesome-user"></span></a>
+
+										<ul>
+
+											<li><a href="https://www.facebook.com/vo.thanh.nhan.90" class="facebook"><span class="fontawesome-facebook"></span></a></li>
+											<!-- <li><a href="#" class="twitter"><span class="fontawesome-twitter"></span></a></li> -->
+											<li><a href="https://plus.google.com/118020786411970832927/posts" class="google-plus"><span class="fontawesome-google-plus"></span></a></li>
+											<!-- <li><a href="#" class="linkedin"><span class="fontawesome-linkedin"></span></a></li>
+											<li><a href="#" class="github"><span class="fontawesome-github"></span></a></li> -->
+
+										</ul>
+
+									</li>
+
+								</ul>
+
+							</nav>
+		
+						</div>
+						<div class="grid_1_of_3 images_1_of_3 top_grid">
+							  <h3>Liên hệ</h3>
+							  <p>405/41 Trường chinh TP Hồ Chí Minh.</p>
+						      <h5 style="float : left;">Phone: +84 0163.588.0877</h5>
+							  <h5 style="float : left;">Email: edecoffeedaklak@gmail.com</h5>
+						</div>
+					</div>
+		 		</div>		 	   		  	    
+			 </div>
+		  </div>		   			
+		 <!---End-content---->
+		 <!---start-footer---->		 
+	<div class="copy-right">
+		<p>Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+		 <!---End-footer---->
+		 
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>	 
+		 
+		 
+	</body>
+</html>
+
